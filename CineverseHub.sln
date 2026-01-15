@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CineverseHub.Backend", "CineverseHub.Backend", "{02140992-4E00-4CDE-BB85-7189B27E54AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineverseHub.API", "CineverseHub.Backend\CineverseHub.API\CineverseHub.API.csproj", "{02BF4E76-2D05-4615-AED8-09877B372C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineverseHub.Core", "CineverseHub.Backend\CineverseHub.Core\CineverseHub.Core.csproj", "{81726ACF-5791-4AD4-9A5A-D16B6450717A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineverseHub.Application", "CineverseHub.Backend\CineverseHub.Application\CineverseHub.Application.csproj", "{439DAE6B-4538-4856-8147-BCC71E1301A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineverseHub.Infrastructure", "CineverseHub.Backend\CineverseHub.Infrastructure\CineverseHub.Infrastructure.csproj", "{2B7FB796-D819-4FAA-94C6-FA3DD16B8AE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02BF4E76-2D05-4615-AED8-09877B372C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BF4E76-2D05-4615-AED8-09877B372C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BF4E76-2D05-4615-AED8-09877B372C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BF4E76-2D05-4615-AED8-09877B372C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81726ACF-5791-4AD4-9A5A-D16B6450717A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81726ACF-5791-4AD4-9A5A-D16B6450717A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81726ACF-5791-4AD4-9A5A-D16B6450717A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81726ACF-5791-4AD4-9A5A-D16B6450717A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439DAE6B-4538-4856-8147-BCC71E1301A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439DAE6B-4538-4856-8147-BCC71E1301A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439DAE6B-4538-4856-8147-BCC71E1301A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439DAE6B-4538-4856-8147-BCC71E1301A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7FB796-D819-4FAA-94C6-FA3DD16B8AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7FB796-D819-4FAA-94C6-FA3DD16B8AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7FB796-D819-4FAA-94C6-FA3DD16B8AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7FB796-D819-4FAA-94C6-FA3DD16B8AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02BF4E76-2D05-4615-AED8-09877B372C01} = {02140992-4E00-4CDE-BB85-7189B27E54AB}
+		{81726ACF-5791-4AD4-9A5A-D16B6450717A} = {02140992-4E00-4CDE-BB85-7189B27E54AB}
+		{439DAE6B-4538-4856-8147-BCC71E1301A8} = {02140992-4E00-4CDE-BB85-7189B27E54AB}
+		{2B7FB796-D819-4FAA-94C6-FA3DD16B8AE6} = {02140992-4E00-4CDE-BB85-7189B27E54AB}
+	EndGlobalSection
+EndGlobal

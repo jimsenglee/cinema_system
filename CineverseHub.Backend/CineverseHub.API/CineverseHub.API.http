@@ -1,0 +1,6 @@
+@CineverseHub.API_HostAddress = http://localhost:5254
+
+GET {{CineverseHub.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
